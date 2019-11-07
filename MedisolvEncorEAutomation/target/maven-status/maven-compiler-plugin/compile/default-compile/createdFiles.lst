@@ -1,0 +1,15 @@
+com\encore\Utility\GlobalWaitDeclaration.class
+com\encore\pages\ReportingEHPatientList.class
+com\encore\pages\ReportingEH_Enc_By_Dis_Page.class
+com\encore\pages\ReportingEHPatientCohortsPage.class
+com\encore\base\ConfigEncorEBase.class
+com\encore\pages\LoginPage.class
+com\encore\pages\ReportingEHeCQMResultPage.class
+com\encore\pages\ReportingEHObjectiveStage3Page.class
+com\encore\pages\ReportingEH_Provid_Compliance_Page.class
+com\encore\pages\ReportingEH_PI_Objective_Stage2_Page.class
+com\encore\pages\ReportingEHObjectiveStage2Page.class
+com\encore\pages\ReportingEH_Data_Validation_Page.class
+com\encore\pages\ReportingEH_Patient_Search_Page.class
+com\encore\pages\ReportingEH_Provi_By_Loc_By_Dept_Page.class
+com\encore\pages\EncorEHomePage.class

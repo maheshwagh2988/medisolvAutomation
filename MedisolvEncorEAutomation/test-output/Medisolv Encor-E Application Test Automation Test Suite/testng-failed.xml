@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Medisolv Encor-E Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.encore.testcases.RetryListenerClass"/>
+  </listeners>
+  <test name="Encor-E Application Test Cases(failed)">
+    <classes>
+      <class name="com.encore.testcases.ReportingPage_TestCases">
+        <methods>
+          <include name="Display_HospMenu_Test"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.encore.testcases.ReportingPage_TestCases -->
+    </classes>
+  </test> <!-- Encor-E Application Test Cases(failed) -->
+</suite> <!-- Failed suite [Medisolv Encor-E Application Test Automation Test Suite] -->

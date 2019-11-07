@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Medisolv Encor-E Application Test Automation Test Suite" verbose="1">
+
+<!-- Start 1st Test for Chrome -->
+
+	<!-- Use of Listener Logs for multiple classes. -->
+ 	<listeners>
+        <listener class-name="com.encore.Utility.ListenerTestNG"/>
+    </listeners>
+    
+   
+    <!-- Failed Test cases will run twice  at runtime using IAnnotationTransformer Interface -->
+    <listeners>
+        <listener class-name="com.encore.testcases.RetryListenerClass"/>
+	</listeners>
+   
+   
+  <test name="Encor-E Application Test Cases" preserve-order="true" >
+  		<classes>
+      
+  			<class name="com.encore.testcases.EncorE_HomePage_TestCases"></class>
+   			<class name="com.encore.testcases.ReportingPage_TestCases"></class>
+			<class name="com.encore.testcases.EHPatientListTest"></class>
+	 
+  		</classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  
+  <!-- We can  Create Different TestNg file to run test case 
+  Like Sanity ,Regression,UI as per Test cases you and run the 
+  Runner file where all test cases can run as per your need
+   -->
