@@ -102,6 +102,7 @@
    				 <version>1.5.4</version>
 		</dependency>
    		
+   		<!-- update REST API -->
    		<!-- https://search.maven.org/artifact/io.rest-assured/rest-assured/4.1.2/jar -->
    			<dependency>
 					  <groupId>io.rest-assured</groupId>
