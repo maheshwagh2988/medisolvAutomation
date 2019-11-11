@@ -102,7 +102,13 @@
    				 <version>1.5.4</version>
 		</dependency>
    		
-   				
+   		<!-- https://search.maven.org/artifact/io.rest-assured/rest-assured/4.1.2/jar -->
+   			<dependency>
+					  <groupId>io.rest-assured</groupId>
+  					  <artifactId>rest-assured</artifactId>
+  					  <version>4.1.2</version>
+			</dependency>
+	
 		
 		<!-- https://mvnrepository.com/artifact/com.thoughtworks.example/example -->
 		<dependency>
