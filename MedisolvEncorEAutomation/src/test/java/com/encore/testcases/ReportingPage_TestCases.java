@@ -12,6 +12,8 @@ import com.encore.base.ConfigEncorEBase;
 import com.encore.pages.EHPatientList;
 import com.encore.pages.EHReportingPage;
 import com.encore.pages.EncorEHomePage;
+
+//Test Cases for ReportingPage_TestCases
 @Listeners(com.encore.Utility.ListenerTestNG.class)	
 
 public class ReportingPage_TestCases extends ConfigEncorEBase {

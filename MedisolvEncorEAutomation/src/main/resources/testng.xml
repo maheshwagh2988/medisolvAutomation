@@ -23,6 +23,7 @@
    			<class name="com.encore.testcases.ReportingPage_TestCases"></class>
 			<class name="com.encore.testcases.EHPatientListTest"></class>
 	 
+	 
   		</classes>
   </test> <!-- Test -->
   </suite> <!-- Suite -->

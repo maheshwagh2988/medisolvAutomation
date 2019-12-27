@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.encore.Utility.GlobalWaitDeclaration;
 import com.encore.base.ConfigEncorEBase;
-
+//Object Repositatory for EH Reporting Page
 
 public class EHReportingPage extends ConfigEncorEBase {
 	

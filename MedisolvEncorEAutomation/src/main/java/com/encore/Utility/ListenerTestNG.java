@@ -4,6 +4,9 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+//ITestListener for generate Log 
+
+
 public class ListenerTestNG implements ITestListener {
 
 	@Override

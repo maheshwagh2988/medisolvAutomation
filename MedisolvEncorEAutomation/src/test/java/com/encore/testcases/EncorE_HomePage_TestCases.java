@@ -10,6 +10,9 @@ import com.encore.base.ConfigEncorEBase;
 import com.encore.pages.EHReportingPage;
 import com.encore.pages.EncorEHomePage;
 //The first way is to use Listeners annotation (@Listeners) as shown below:
+//Test Cases for EHPatientListTest
+
+
 @Listeners(com.encore.Utility.ListenerTestNG.class)			
 
 
