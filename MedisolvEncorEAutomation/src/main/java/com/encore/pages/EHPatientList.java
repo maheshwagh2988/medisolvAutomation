@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.encore.base.ConfigEncorEBase;
 //Object Repositatory for EH PatientList Page
 
+
 public class EHPatientList extends ConfigEncorEBase {
 	
 	@FindBy(xpath="//h1[contains(text(),'Patient List')]")

@@ -6,7 +6,6 @@ import org.testng.ITestResult;
 
 //ITestListener for generate Log 
 
-
 public class ListenerTestNG implements ITestListener {
 
 	@Override

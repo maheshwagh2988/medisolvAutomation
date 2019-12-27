@@ -16,6 +16,7 @@ import com.encore.pages.EncorEHomePage;
 //Test Cases for ReportingPage_TestCases
 @Listeners(com.encore.Utility.ListenerTestNG.class)	
 
+
 public class ReportingPage_TestCases extends ConfigEncorEBase {
 	EncorEHomePage homepage;
 	EHReportingPage Reportingpage;

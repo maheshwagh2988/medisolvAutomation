@@ -7,4 +7,5 @@ public class ExtentReportsClass {
 ExtentReports extent;
 ExtentTest logger;
 
+
 }

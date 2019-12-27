@@ -12,7 +12,6 @@ import com.encore.base.ConfigEncorEBase;
 
 //Global Wait and Excel XLSX Declaration for Medisolv 
 
-
 public class GlobalWaitDeclaration extends ConfigEncorEBase {
 
 	static Workbook book; 
