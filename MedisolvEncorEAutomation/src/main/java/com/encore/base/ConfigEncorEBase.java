@@ -16,7 +16,7 @@ import org.testng.Reporter;
 import com.encore.Utility.GlobalWaitDeclaration;
 
 public class ConfigEncorEBase {
-	//Global Variable  //Test New ver adde Code Addded
+	//Global Variable  
 	public static WebDriver driver;
 	public static Properties prop; //To initialization Properties files we have create prop variable 
 	
