@@ -18,14 +18,14 @@ EncorEHomePage homepage;
 EHReportingPage Reportingpage;
 	
 	public EncorE_HomePage_TestCases(){
-		//It will call ConfigEncorEBase Constructor to Initinilize prop file 
+		//It will call ConfigEncorEBase Constructor to Initilize prop file 
 			super();
 	}
 	
 	@BeforeMethod
 	public void setUp(){
 		initialization();
-//Create aObject EncorEHomePage and make this Object Variable on Class level so that we can use it entire code
+		//Create a Object EncorEHomePage and make this Object Variable on Class level so that we can use it entire code
 		homepage= new EncorEHomePage();
 		//Reportingpage= new EHReportingPage();
 		

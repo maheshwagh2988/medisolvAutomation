@@ -45,7 +45,8 @@ public class ConfigEncorEBase {
 			WebDriverManager.iedriver().setup();
 			WebDriverManager.iedriver().clearPreferences();
 			driver = new InternetExplorerDriver();
-			Reporter.log("Internet Explorer Browser Open Sucessfully");*/
+			Reporter.log("Internet Explorer Browser Open Successfully");
+			*/
 		 }
 		else if(browserName.equals("Chrome")){
 			WebDriverManager.chromedriver().clearPreferences();

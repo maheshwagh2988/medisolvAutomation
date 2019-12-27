@@ -1,5 +1,9 @@
 package com.encore.pages;
 
+import java.util.Iterator;
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -61,7 +65,7 @@ public class EncorEHomePage extends ConfigEncorEBase{
 		
 		//Create a Constructor to Initialize Page Object or WebElements using PageFactory.initElements methods
 		public EncorEHomePage(){
-			PageFactory.initElements(driver, this); //OR this
+			PageFactory.initElements(driver, EncorEHomePage.this); //OR this
 		}
 		
 		//Actions:
@@ -109,8 +113,34 @@ public class EncorEHomePage extends ConfigEncorEBase{
 			ClickOnReporting.click();
 			return new EHReportingPage();
 		}
+		// New code for getAll link
 		
-		
-		
+		public String getAlllink(){
+			String url="";
+			List <WebElement> AllLink=driver.findElements(By.tagName("a"));
+			System.out.println("Total Number of Link  is "+AllLink.size());
+			Iterator<WebElement> it=AllLink.iterator();
+			while(it.hasNext())
+			{
+				url=it.next().getAttribute("href");
+				String str=it.next().getText();
+				System.out.println(url);
+				System.out.println(str);
+				
+			if(url == null || url.isEmpty())
+				{
+					System.out.println("URL is either not configured for anchor tag or it is empty"+url);
+					continue;
+				}
+			else if (str == null || str.isEmpty())
+				{
+					System.out.println("String anchor tag or it is empty"+str);
+					continue;
+				}
+			}
+			return url;
+			
+		}
+			
 
 }
