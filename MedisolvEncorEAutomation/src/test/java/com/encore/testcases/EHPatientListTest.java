@@ -14,6 +14,7 @@ import com.encore.pages.EHPatientList;
 import com.encore.pages.EHReportingPage;
 import com.encore.pages.EncorEHomePage;
 //Add @Listeners for Reporting as well as Log and also to run failed test Cases
+//Test Cases for EHPatientListTest
 @Listeners(com.encore.Utility.ListenerTestNG.class)	
 public class EHPatientListTest extends ConfigEncorEBase{
 	

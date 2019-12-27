@@ -20,6 +20,7 @@ public class ConfigEncorEBase {
 	public static WebDriver driver;
 	public static Properties prop; //To initialization Properties files we have create prop variable 
 	
+	
 	//Create a Constructor for ConfigEncorEBase Class
 	public ConfigEncorEBase(){
 		try{
